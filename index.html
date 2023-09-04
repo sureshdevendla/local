@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Redmi user login</title>
+        <link rel="stylesheet" href="milogin.css">
+        <script src="milogin.js"></script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="index,follow">
+        
+        <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-database.js"></script>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <center>
+           
+            <h1>Redmi user login page</h1>
+            <img src="milogo.jpg"><br>
+            <h2>Enter user details for sign in</h2><br>
+            
+            <form>
+                <label for="name1">Enter user name : </label>
+                <input id="name1" type="text" placeholder="Enter user name" ><br>
+                
+               <label for="pwd1">Enter password : </label>
+                <input id="pwd1" type="text" placeholder="Enter password" ><br> 
+                
+                <label><input type="checkbox" checked="checked" name="remember" >Remember me</label><br>
+                
+                <button id="btn1" type="button" class="btn btn-primary" onclick="adduser()">Login</button>
+            </form>
+        </center>
+    </body>
+</html>

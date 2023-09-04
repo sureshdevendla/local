@@ -1,0 +1,23 @@
+body{
+    background:linear-gradient(#C0E386 0%,#BAF855 100%);
+}
+h1{
+    font-size: 70px;
+    color: darkblue;
+    margin: 10px;
+}
+h2{
+   font-size: 40px;
+    color: darkblue; 
+    margin: 5px;
+}
+label{
+    display: inline-block;
+    font-size: 20px;
+    color: darkblue; 
+    margin: 10px;
+}
+input{
+    font-size: 20px;
+    border-radius: 5px;
+}
